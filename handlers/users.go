@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"main/models"
 	"net/http"
 	"strconv"
+
+	"github.com/Fadiouf/goprojet/models"
 
 	"github.com/labstack/echo"
 	"golang.org/x/crypto/bcrypt"
